@@ -1,0 +1,71 @@
+.navbar {
+  font-size: 1.2em;
+  font-weight: bold;
+
+  .bordered {
+    border: 2px solid #567;
+    border-radius: 3px;
+    padding: 3px 10px;
+  }
+}
+
+.navbar-brand {
+  line-height: $navbar-height;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-weight: bold;
+  font-style: italic;
+  color: #567 !important;
+  font-size: 2em;
+  padding: 0;
+  img {
+    float: left;
+    margin: 20px 15px 0 0;
+    max-height: $navbar-height - 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    .nav{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      background: $brand-primary;
+      padding-top: 60px;
+      padding-bottom: 40px;
+      min-height: 50vh;
+      margin: 0;
+      transition: opacity .3s ease;
+      opacity: 0;
+      a {
+        color: #FFF;
+        display: block;
+        padding: 20px;
+        font-size: 30px;
+
+        .bordered {
+          border-color: #FFF;
+        }
+      }
+    }
+    &.in {
+      .nav {
+        opacity: 1;
+      }
+    }
+
+  }
+  .close-nav {
+    z-index: 9;
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    text-decoration: none !important;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 300;
+    color: #FFF;
+  }
+}

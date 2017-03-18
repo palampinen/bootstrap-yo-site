@@ -1,0 +1,19 @@
+.intro {
+  margin: 0 0 30px;
+  background: $navbar-default-bg;
+  font-size: 1.6em;
+  padding: 80px 0 120px;
+  font-weight: 300;
+  color: $secondary-color;
+  .btn-lg {
+    margin: 30px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  h1 {
+    max-width: 70%;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: $brand-primary;
+  }
+}

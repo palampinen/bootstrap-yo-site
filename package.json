@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-yo-site",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Gulp-powered static site starter kit with bootstrap.",
+  "repository": "",
+  "devDependencies": {
+    "ecstatic": "*",
+    "event-stream": "*",
+    "gulp": "*",
+    "gulp-browserify": "*",
+    "gulp-changed": "*",
+    "gulp-jshint": "*",
+    "gulp-livereload": "*",
+    "gulp-plumber": "*",
+    "gulp-util": "*",
+    "rimraf": "*",
+    "gulp-sass": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
