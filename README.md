@@ -1,5 +1,7 @@
 # Bootstrap yo site
 
+[Try site in palampinen.github.io/bootstrap-yo-site/build](https://palampinen.github.io/bootstrap-yo-site/build/)
+
 Demonstrating how to enable bootstrap styles...
 
 This is how I did it
@@ -21,6 +23,4 @@ This is how I did it
 
 7) [Took some starter html content with bootstrap classes for building initial style library](http://getbootstrap.com/examples/theme/)
 
-8) Profit
-
-## Try this out!
+8) Profit!
