@@ -1,13 +1,12 @@
-.btn {
-  box-shadow: 0 2px 4px rgba(0,0,0,.2);
-}
-
 .section.secondary {
   display: block;
   margin: 50px 0 0;
   padding: 20px 0;
   color: rgba(255,255,255,.7);
   background: $secondary-color;
+  .label {
+  	display: inline-block; // for demoing purposes
+  }
   .panel-body {
     color: $secondary-color;
   }

@@ -2,8 +2,9 @@
 $primary-color: #42C299;
 $secondary-color: #4D384B;
 
-@import "scss/_variables.scss";
+@import "scss/bootstrap/_variables.scss";
 @import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "scss/bootstrap/_buttons.scss";
 
 @import "scss/_header.scss";
 @import "scss/_intro.scss";
